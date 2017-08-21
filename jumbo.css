@@ -1,0 +1,185 @@
+/*======Base style======*/
+
+body {
+  font-family: cursive;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Lora', serif;
+}
+
+body,
+h1,
+h3,
+h4,
+p {
+  letter-spacing: .1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*======================= 
+      Navbar style 
+=========================*/
+
+.nav  {
+  background-color: black;
+}
+  
+li {
+  list-style: none;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.nav a {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .1rem;
+  line-height: 2;
+  border: 1.5px solid white;
+  border-radius: 9999px;
+  padding: .5rem;
+  
+}
+
+a:hover {
+  color: black;
+  background-color: azure;
+  transition: background-color .3s ease-in-out;
+}
+
+.nav span {
+  color: aliceblue;
+  background-color: darkgreen;
+  padding: .7rem;
+
+}
+
+@media(min-width: 768px) {
+  
+  .nav{
+    width: 100%;
+  }
+
+  li {
+    display: inline-block;
+    float: right;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/*=======================
+     Header style
+=========================*/
+
+figcaption {
+  text-align: center;
+  padding-top: 1em;
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+/*==========================
+        Jumbotron
+============================*/
+
+
+.jumbotron, p {
+  text-align: center;
+}
+
+
+/*============================
+       Well style
+=============================*/
+
+ .well-sm {
+  font-size: 1.5em;
+  background-color: lightcyan;
+}
+
+/*============================
+      Panel style            
+============================*/
+
+.panel, h4 {
+  line-height: 1.3em;
+}
+
+/*============================
+       Table style
+=============================*/
+
+.table-responsive{
+  padding-bottom: 1rem;
+}
+
+
+@media(min-width: 425px){
+    
+  .text-info {
+    text-align: center;
+  }
+
+}
+
+@media(min-width: 768px){
+  
+    .text-info {
+      text-align: left;
+    }
+  
+}
+
+/*=============================
+        Text-panel style
+=============================*/
+
+
+.text-success {
+  text-align: center;
+}
+
+/*============================
+        Video style
+============================*/
+
+.embed-responsive-item {
+  padding-bottom: 1rem;
+  
+}
+
+/*============================
+        Footer style
+============================*/
+
+.footer {
+  padding-top: 1rem;
+  background-color: darkgrey;
+}
+
+.footer a {
+  text-decoration: none;
+  color: brown;
+  font-size: 20px;
+}
+
+.footer a:hover{
+  color: aqua;
+  background-color: darkgrey;
+}
